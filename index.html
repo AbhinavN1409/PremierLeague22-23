@@ -1,0 +1,169 @@
+<html>
+
+<import/bootleg/[]>
+
+<head>
+
+<span class="border border-primary"></span>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">Images</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Summary</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Results</a>
+    </li>
+	    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Statistics</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Top Scorers</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Top assists</a></li>
+		<li><a class="dropdown-item" href="#scrollspyHeading6">Clean sheets</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<title> The Premier League 2022/23 </title>
+
+<style>
+
+h1 {
+  text-align: center;
+}
+
+body {
+	color:blue
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+.carousel img {
+     margin: auto;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 style="background-color:Tomato;"> The Premier League 2022/23 </h1>
+
+<marquee style="background-color:DodgerBlue;"> <b> The season is over. Manchester City are champions! </b> </marquee>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">Images</h4>
+  <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="logo.jpg" class="d-block w-50" alt="The premier league logo">
+    </div>
+    <div class="carousel-item">
+      <img src="trophy1.jpg" class="d-block w-50" alt="The premier league trophy">
+    </div>
+    <div class="carousel-item">
+      <img src="football.jpg" class="d-block w-50" alt="The premier league football">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <h4 id="scrollspyHeading2">Season Summary</h4>
+  <p> The 2022–23 Premier League was the 31st season of the Premier League and the 124th season of top-flight English football overall. Fulham, Bournemouth and Nottingham Forest were the three promoted clubs from the 2021–22 EFL Championship, replacing Burnley, Watford and Norwich City.
+
+Following Arsenal's defeat to Nottingham Forest on 20 May, Manchester City officially secured a third consecutive Premier League title with three games to spare, becoming the second club after local rivals Manchester United to achieve the feat in the Premier League era. It was their ninth English title overall and their seventh since 1992. Meanwhile, Arsenal broke the record of spending the longest amount of days, with 248, on top of the league in a top flight season without winning the title in English top flight history.
+
+This season was also the first since 2017–18, and only the fourth Premier League season overall, where all three promoted teams at the start of the season avoided relegation. This was also the first time since 2014–15 that the team 20th at Christmas (Wolverhampton Wanderers), managed to avoid relegation.
+
+The 2022–23 season was the highest-scoring 38-game season in Premier League history, with 1,084 goals (with a 2.85 goals per match ratio, the best in the history of Premier League). Erling Haaland broke the Premier League record for most goals scored by a player in one season with 36 goals.
+
+It was also second Premier League season in a row where over 15 millions fans attended matches and with total of 15,289,340 spectators a new competition record was set. </p>
+
+  <h4 id="scrollspyHeading3">This Season's Result</h4>
+
+<p id="demo" style="display:none">
+<table style="width:100%">
+  <tr>
+    <th>Champions</th>
+    <th>Champions League</th>
+    <th>Europa League</th>
+    <th>Europa Conference League</th>
+    <th>Relegation</th>
+  </tr>
+  <tr>
+    <td>Manchester City</td>
+    <td>Arsenal</td>
+    <td>Liverpool</td>
+	<td>Aston Villa</td>
+	<td>Leicester City</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Newcastle</td>
+    <td>Brighton & Hove Albion</td>
+	<td></td>
+	<td>Southampton</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Manchester United</td>
+    <td>West Ham (conference league winners)</td>
+	<td></td>
+	<td>Leeds United</td>
+  </tr>
+</table>
+</p>
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Show results</button>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+       <h4 id="scrollspyHeading4">Top Scorers</h4>
+  <ol>
+	<li><button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Erling Haaland breaks Andy Cole and Alan Shearer's record of most goals scored in a season in his first year in English football.">
+  Erling Haaland - 36
+</button></li>
+	<li>Harry Kane - 30</li>
+	<li>Ivan Toney - 20</li>
+  </ol>
+    </div>
+    <div class="col">
+      <h4 id="scrollspyHeading5">Top assists</h4>
+  <ol>
+	<li>Kevin De Bruyne - 16</li>
+	<li>Mohamed Salah - 12</li>
+	<li>Leandro Trossard - 12</li>
+  </ol>
+    </div>
+    <div class="col">
+      <h4 id="scrollspyHeading6">Clean Sheets</h4>
+  <ol>
+	<li>David De Gea - 17</li>
+	<li>Allison - 14</li>
+	<li>Ramsdale - 14</li>
+  </ol>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+
+</hmtl>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
